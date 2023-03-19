@@ -37,7 +37,7 @@ from plotly.graph_objs import Scattergeo, Layout
 from plotly import offline
 
 my_data = Scattergeo(lon=lons, lat=lats)
-my_layout = Layout(title="Gloval Earthquakes")
+my_layout = Layout(title="Global Earthquakes")
 
 fig = {"data": my_data, "layout": my_layout}
 
